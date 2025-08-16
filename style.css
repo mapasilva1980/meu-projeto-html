@@ -78,9 +78,10 @@ main h2 {
 }
 
 main p {
-    padding: 1em;
-    text-indent: 2em;
-    line-height: 2em;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+
 }
 
 main img {
