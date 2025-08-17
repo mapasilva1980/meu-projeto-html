@@ -8,7 +8,7 @@ body {
 header {
     background-image: linear-gradient(to bottom, rgb(15, 173, 15), rgb(15, 202, 15));
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
     min-height: 150px;
 }
 
@@ -23,7 +23,7 @@ header > h1 {
 }
 
 header > p {
-    font-size: 2em;
+    font-size: 1.6em;
     text-align: center;
     color: white;
     padding: 15px;
@@ -35,14 +35,12 @@ header > p {
 nav {
     background-color: darkgreen;
     padding: 10px;
-    border-radius: 0px 0px 5px 5px;
 }
 
 nav > a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 3px;
     padding: 10px;
     transition-duration: 0.5s;
 }
@@ -81,7 +79,7 @@ main p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
-
+    line-height: 2em;
 }
 
 main img {
@@ -110,10 +108,14 @@ main iframe {
 
 aside {
     background-color: rgb(88, 88, 223);
+    border-radius: 5px;
+}
+
+aside p {
     color: white;
     font-weight: bold;
     text-align: center;
-    border-radius: 5px;
+    padding: 15px;
 }
 
     
